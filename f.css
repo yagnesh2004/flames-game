@@ -11,7 +11,6 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: aliceblue;
-  width: 100%;
 
 
 }
@@ -65,11 +64,11 @@ ul{
   background-color: #ffc900;
 }
 .header img{
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .header h1{
-  font-size:10rem ;
+  font-size:4rem ;
   line-height: 3;
   align-items: center;
   justify-content: space-between;
@@ -77,6 +76,11 @@ ul{
 
 
 }
-.header .container{
+.row{
   display: flex;
+  padding: 20px 20px;
+}
+.row .col{
+  padding: 20px 20px;
+  justify-content: left;
 }
