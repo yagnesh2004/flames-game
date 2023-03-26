@@ -17,48 +17,46 @@ body {
 h1 {
   margin-bottom: 15px;
 }
-.container {
-  max-width: 200px;
-  margin: 0 auto;
-  padding: 0 30px;
-
-}
-ul{
-  list-style: none;
-
-}
-
-.navbar{
-  background-color: #ffffff;
-  color: black;
-  height:70px ;
-
-}
-.navbar .logo{
-  font-size: x-large;
-  font-weight:bold ;
-}
-
-.navbar a{
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.navbar .container{
-  justify-content: space-between;
+nav {
+  background-color: white;
+  height: 80px;
+  width: 100%;
   
-  align-items: center;
-  display: flex;
-}
-.navbar ul{
-  display:flex ;
+
 }
 
-.navbar ul li{
-  margin-left: 20px;
+nav .logo{
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 100px;
+  line-height: 80px;
+
 }
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  min-height: 80px;
+
+}
+
+
+
+
+
+
 
 .header{
   background-color: #ffc900;
