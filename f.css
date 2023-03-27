@@ -82,3 +82,39 @@ nav ul li a{
   padding: 20px 20px;
   justify-content: left;
 }
+
+.input input{
+  width: 100%;
+  outline: none;
+
+  height: 60px;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 0 20px;
+  box-shadow: 5px 8px;
+}
+.button{
+  margin-top: 20px;
+
+}
+.button button{
+  width: 400px;
+  outline: none;
+  pad: 15px 0;
+  font-size: 25px;
+  border-radius: 5px;
+  
+  height: 60px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 500;
+  background-color: #4338ca;
+  box-shadow: 5px 8px black;
+  border: 2px solid black;
+
+
+
+  
+}
