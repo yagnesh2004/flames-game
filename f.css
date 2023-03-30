@@ -78,9 +78,15 @@ nav ul li a{
   display: flex;
   padding: 20px 20px;
 }
-.row .col{
-  padding: 20px 20px;
-  justify-content: left;
+
+.input .col{
+  margin: 100px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,20fr);
+  gap: 10px 10px;
+
+
 }
 
 .input input{
