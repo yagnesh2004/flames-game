@@ -2,21 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
+
 
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  background-color: aliceblue;
+ 
 
 
 }
-h1 {
-  margin-bottom: 15px;
-}
+
 nav {
   background-color: white;
   height: 80px;
@@ -25,32 +23,33 @@ nav {
 
 }
 
-nav .logo{
+label {
   color: black;
   font-size: 35px;
+  line-height: 80px;
   font-weight: bold;
   padding: 0 100px;
-  line-height: 80px;
 
 }
 nav ul{
   float: right;
   margin-right: 20px;
+
 }
 nav ul li{
-  list-style: none;
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-
 
 }
 nav ul li a{
   color: black;
   font-size: 17px;
-  min-height: 80px;
-
+  padding: 7pc 13px;
+  border-radius: 3px;
+  text-transform: lowercase;
 }
+
 
 
 
@@ -67,17 +66,34 @@ nav ul li a{
 }
 .header h1{
   font-size:4rem ;
-  line-height: 3;
+  line-height: 1;
   align-items: center;
+  padding: 40px 50px;
   justify-content: space-between;
 
 
 
 }
-.row{
-  display: flex;
-  padding: 20px 20px;
+.header p{
+  padding: 50px 50px;
+  font-size: 2rem;
+
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 200px 100px;
+  background-color: ;
+  padding:100px 50px ;
+}
+.input{
+  background-color: blue;
+}
+.row-text{
+  background-color: red;
+}
+
 
 .input .col{
   margin: 100px auto;
@@ -89,9 +105,13 @@ nav ul li a{
 
 }
 
+
 .input input{
   width: 100%;
   outline: none;
+  justify-content: center;
+  padding: 50px 50px;
+  
 
   height: 60px;
   border-radius: 5px;
@@ -101,26 +121,6 @@ nav ul li a{
   padding: 0 20px;
   box-shadow: 5px 8px;
 }
-.button{
-  margin-top: 20px;
-
-}
-.button button{
-  width: 400px;
-  outline: none;
-  pad: 15px 0;
-  font-size: 25px;
-  border-radius: 5px;
-  
-  height: 60px;
-  border-radius: 50px;
-  color: white;
-  font-weight: 500;
-  background-color: #4338ca;
-  box-shadow: 5px 8px black;
-  border: 2px solid black;
-
 
 
   
-}
